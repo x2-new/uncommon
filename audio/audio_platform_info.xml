@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Copyright (c) 2014,2016 The Linux Foundation. All rights reserved.         -->
+<!--                                                                        -->
+<!-- Redistribution and use in source and binary forms, with or without     -->
+<!-- modification, are permitted provided that the following conditions are -->
+<!-- met:                                                                   -->
+<!--     * Redistributions of source code must retain the above copyright   -->
+<!--       notice, this list of conditions and the following disclaimer.    -->
+<!--     * Redistributions in binary form must reproduce the above          -->
+<!--       copyright notice, this list of conditions and the following      -->
+<!--       disclaimer in the documentation and/or other materials provided  -->
+<!--       with the distribution.                                           -->
+<!--     * Neither the name of The Linux Foundation nor the names of its    -->
+<!--       contributors may be used to endorse or promote products derived  -->
+<!--       from this software without specific prior written permission.    -->
+<!--                                                                        -->
+<!-- THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED           -->
+<!-- WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF   -->
+<!-- MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT -->
+<!-- ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS -->
+<!-- BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR -->
+<!-- CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF   -->
+<!-- SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR        -->
+<!-- BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,  -->
+<!-- OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN -->
+<!-- IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                          -->
+<audio_platform_info>
+    <acdb_ids>
+                <device name="SND_DEVICE_OUT_HANDSET" acdb_id="7"/>
+                <device name="SND_DEVICE_OUT_SPEAKER" acdb_id="14"/>
+                <device name="SND_DEVICE_OUT_SPEAKER_STEREO" acdb_id="15"/>
+                <device name="SND_DEVICE_OUT_HEADPHONES" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_HEADPHONES_24BIT_44P1K" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_HEADPHONES_24BIT_48K" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_HEADPHONES_24BIT_96K" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_HEADPHONES_24BIT_192K" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_HEADPHONES_16BIT_44P1K" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_HEADPHONES_16BIT_48K" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_HEADPHONES_16BIT_96K" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_HEADPHONES_16BIT_192K" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_HEADPHONES_44_1" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_LINE" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_SPEAKER_AND_LINE" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_VOICE_HANDSET" acdb_id="7"/>
+                <device name="SND_DEVICE_OUT_VOICE_SPEAKER" acdb_id="14"/>
+                <device name="SND_DEVICE_OUT_VOICE_SPEAKER_NB" acdb_id="14"/>
+                <device name="SND_DEVICE_OUT_VOICE_SPEAKER_WB" acdb_id="14"/>
+                <device name="SND_DEVICE_OUT_VOICE_SPEAKER_STEREO" acdb_id="15"/>
+                <device name="SND_DEVICE_OUT_VOICE_SPEAKER_STEREO_NB" acdb_id="15"/>
+                <device name="SND_DEVICE_OUT_VOICE_SPEAKER_STEREO_WB" acdb_id="15"/>
+                <device name="SND_DEVICE_OUT_VOICE_SPEAKER_VBAT" acdb_id="14"/>
+                <device name="SND_DEVICE_OUT_VOICE_HEADPHONES" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_VOICE_LINE" acdb_id="10"/>
+                <device name="SND_DEVICE_OUT_ANC_HANDSET" acdb_id="41"/>
+       		<device name="SND_DEVICE_IN_HANDSET_MIC" acdb_id="41"/>
+      		<device name="SND_DEVICE_IN_HANDSET_MIC_AEC" acdb_id="41"/>
+                <device name="SND_DEVICE_IN_HANDSET_MIC_NS" acdb_id="41"/>
+                <device name="SND_DEVICE_IN_HANDSET_MIC_AEC_NS" acdb_id="41"/>
+		<device name="SND_DEVICE_IN_HANDSET_DMIC" acdb_id="41"/>
+		<device name="SND_DEVICE_IN_HANDSET_DMIC_AEC" acdb_id="41"/>
+                <device name="SND_DEVICE_IN_HANDSET_DMIC_AEC_NS" acdb_id="41"/>
+                <device name="SND_DEVICE_IN_BT_SCO_MIC" acdb_id="8"/>
+                <device name="SND_DEVICE_IN_BT_SCO_MIC_NREC" acdb_id="8"/>
+                <device name="SND_DEVICE_IN_BT_SCO_MIC_WB" acdb_id="4"/>
+                <device name="SND_DEVICE_IN_CAMCORDER_MIC" acdb_id="21"/>
+                <device name="SND_DEVICE_IN_SPEAKER_MIC" acdb_id="8"/>
+                <device name="SND_DEVICE_IN_SPEAKER_DMIC_AEC_NS" acdb_id="41"/>
+                <device name="SND_DEVICE_IN_SPEAKER_STEREO_DMIC" acdb_id="38"/>
+        	<device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC" acdb_id="8"/>
+        	<device name="SND_DEVICE_IN_VOICE_SPEAKER_DMIC" acdb_id="38"/>
+        	<device name="SND_DEVICE_IN_VOICE_SPEAKER_STEREO_MIC" acdb_id="38"/>
+                <device name="SND_DEVICE_IN_VOICE_REC_MIC" acdb_id="41"/>
+       		<device name="SND_DEVICE_IN_VOICE_REC_MIC_NS" acdb_id="41"/>
+	        <device name="SND_DEVICE_IN_HEADSET_MIC" acdb_id="8" />
+                <device name="SND_DEVICE_IN_HEADSET_MIC_FLUENCE" acdb_id="16" />
+	        <device name="SND_DEVICE_IN_VOICE_HEADSET_MIC" acdb_id="16" />
+                <device name="SND_DEVICE_IN_AUDIO_REC_MIC" acdb_id="41"/>
+                <device name="SND_DEVICE_IN_VOICE_REC_MIC_NS" acdb_id="41"/>
+                <device name="SND_DEVICE_IN_VOICE_REC_DMIC_STEREO" acdb_id="41"/>
+                <device name="SND_DEVICE_IN_VOICE_REC_DMIC_FLUENCE" acdb_id="41"/>
+                <device name="SND_DEVICE_IN_AANC_HANDSET_MIC" acdb_id="41"/>
+                <device name="SND_DEVICE_IN_HANDSET_STEREO_DMIC" acdb_id="41"/>
+        	<device name="SND_DEVICE_IN_SPEAKER_STEREO_DMIC" acdb_id="38"/>
+    </acdb_ids>
+    <bit_width_configs>
+        <device name="SND_DEVICE_OUT_SPEAKER" bit_width="24"/>
+    </bit_width_configs>
+
+    <native_configs>
+        <feature name="NATIVE_AUDIO_44.1" codec_support="1"/>
+    </native_configs>
+
+    <backend_names>
+        <device name="SND_DEVICE_OUT_SPEAKER" backend="smartpa"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER" backend="smartpa"/>
+        <device name="SND_DEVICE_OUT_VOLTE_NB_SPEAKER" backend="smartpa" />
+        <device name="SND_DEVICE_OUT_SPEAKER_AND_HDMI" backend="smartpa-and-hdmi" />
+    </backend_names>
+
+
+<device_names>
+
+        <device name="SND_DEVICE_IN_HANDSET_MIC" alias="handset-mic" />
+        <device name="SND_DEVICE_IN_HANDSET_DMIC" alias="handset-dmic-endfire" />
+        <device name="SND_DEVICE_IN_SPEAKER_MIC" alias="speaker-stereo-dmic-ef" />
+        <device name="SND_DEVICE_IN_SPEAKER_DMIC" alias="speaker-stereo-dmic-ef" />
+        <device name="SND_DEVICE_IN_SPEAKER_DMIC_AEC" alias="speaker-stereo-dmic-ef" />
+        <device name="SND_DEVICE_IN_SPEAKER_DMIC_NS" alias="speaker-stereo-dmic-ef" />
+        <device name="SND_DEVICE_IN_SPEAKER_DMIC_AEC_NS" alias="speaker-stereo-dmic-ef" />
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC" alias="speaker-stereo-dmic-ef" />
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_DMIC" alias="speaker-stereo-dmic-ef" />
+    </device_names>
+
+
+    <config_params>
+        <param key="spkr_1_tz_name" value="wsatz.11"/>
+        <param key="spkr_2_tz_name" value="wsatz.12"/>
+        <param key="audio.nat.codec.enabled" value="true"/>
+        <param key="native_audio_mode" value="src"/>
+        <param key="input_mic_max_count" value="4"/>
+        <!-- In the below value string, first parameter indicates size -->
+        <!-- followed by perf lock options                             -->
+        <param key="perf_lock_opts" value="2, 0x101, 0x20F"/>
+    </config_params>
+</audio_platform_info>
